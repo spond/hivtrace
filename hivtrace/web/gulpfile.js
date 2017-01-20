@@ -23,7 +23,7 @@ gulp.task("scripts", function() {
         bowerDirectory: config.bowerDir,
         bowerrc: './../../.bowerrc',
         bowerJson: './../../bower.json'
-     }, 
+     },
     "overrides": {
         "crossfilter": {
           "main": [
@@ -87,7 +87,7 @@ gulp.task("css", function() {
         "main": [
           "dist/css/shepherd-theme-default.css", "dist/css/shepherd-theme-arrows.css"
         ]
-      }    
+      }
     }}), { base: config.bowerDir })
     .pipe(filterJS)
     .pipe(sourcemaps.init())

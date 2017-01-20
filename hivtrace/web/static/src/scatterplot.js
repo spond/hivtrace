@@ -1,5 +1,5 @@
 
-function hivtrace_render_scatterplot(points, w, h, id, labels) {
+function hivtrace_render_scatterplot(points, w, h, id, labels, scale) {
 
     var margin = {top: 10, right: 10, bottom: 70, left: 70},
                 width = w - margin.left - margin.right,
